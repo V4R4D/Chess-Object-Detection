@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bishop', 'King', 'Knight', 'Pawn', 'Queen', 'Rook']
+
+roboflow:
+  workspace: p2
+  project: chess_pieces_3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/p2/chess_pieces_3/dataset/1
